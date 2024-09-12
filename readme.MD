@@ -20,13 +20,23 @@ This is a simple command-line interface (CLI) based Todo application built using
    ```bash
    git clone https://github.com/your-username/cli-todo-app.git
 
-2. cd cli-todo-app
+2. Move to project folder
+   ```bash
+   cd cli-todo-app
 
-3. npm install
+3. Install necessary dependencies
+   ```bash
+   npm install
 
-4. node clitodo.js addtodo "Your todo task here"
+4. Add your first todo
+   ```bash
+   node clitodo.js addtodo "Your todo task here"
 
-5. node clitodo.js addtodo "Go to the gym"
+5. Add more todos
+   ```bash
+   node clitodo.js addtodo "Go to the gym"
 
-6. node clitodo.js readtodos
+6. Display all todos
+   ```bash   
+      node clitodo.js readtodos
 
